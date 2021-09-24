@@ -1,31 +1,31 @@
 variable "hvn_id" {
   description = "The ID of the HCP HVN."
   type        = string
-  default     = "Deploy-HCP-Demo"
+  default     = "jumpstart-hcp"
 }
 
 variable "cluster_id" {
   description = "The ID of the HCP Vault cluster."
   type        = string
-  default     = "HCP-Vault-Cluster"
+  default     = "jumpstart-hcp-vault"
 }
 
 variable "cluster_id" {
   description = "The ID of the HCP Consul cluster."
   type        = string
-  default     = "HCP-Consul-Cluster"
+  default     = "jumpstart-hcp-consul"
 }
 
 variable "peering_id" {
   description = "The ID of the HCP peering connection."
   type        = string
-  default     = "Deploy-HCP-Peering"
+  default     = "jumpstart-hcp-peering"
 }
 
 variable "route_id" {
   description = "The ID of the HCP HVN route."
   type        = string
-  default     = "Deploy-HCP-HVN-Route"
+  default     = "jumpstart-hcp-hvn-route"
 }
 
 variable "region" {
