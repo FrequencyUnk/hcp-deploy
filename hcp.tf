@@ -14,6 +14,6 @@ resource "hcp_vault_cluster" "deploy_hcp_vault" {
 resource "hcp_consul_cluster" "deploy_hcp_consul" {
   hvn_id          = hcp_hvn.deploy_hcp_hvn.hvn_id
   cluster_id      = var.consul_cluster_id
-  tier            = "development"
+  tier            = var.consul_tier
   public_endpoint = true
 }
