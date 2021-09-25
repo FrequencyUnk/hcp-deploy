@@ -51,3 +51,15 @@ variable "consul_tier" {
   type        = string
   default     = "dev"
 }
+
+variable "gateway_name" {
+  description = "Name of the Transit Gateway."
+  type        = string
+  default     = "jumpstart-tgw"
+}
+
+variable "transit_gateway_attachment_id" {
+  description = "ID of the Transit Gateway Attachment."
+  type        = string
+  default     = "jumpstart-tgw-attachment"
+}
