@@ -49,7 +49,7 @@ variable "vault_tier" {
 variable "consul_tier" {
   description = "Tier of the HCP Consul cluster. Valid options for tiers."
   type        = string
-  default     = "dev"
+  default     = "developer"
 }
 
 variable "gateway_name" {
