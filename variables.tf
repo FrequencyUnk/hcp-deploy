@@ -4,13 +4,13 @@ variable "hvn_id" {
   default     = "jumpstart-hcp"
 }
 
-variable "cluster_id" {
+variable "vault_cluster_id" {
   description = "The ID of the HCP Vault cluster."
   type        = string
   default     = "jumpstart-hcp-vault"
 }
 
-variable "cluster_id" {
+variable "consul_cluster_id" {
   description = "The ID of the HCP Consul cluster."
   type        = string
   default     = "jumpstart-hcp-consul"
